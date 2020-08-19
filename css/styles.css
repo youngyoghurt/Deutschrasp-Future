@@ -1,0 +1,160 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #5D04D9;
+  color: #fff;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar{
+  text-align: right;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+  background-color: #5D04D9;
+}
+
+#title h1 {
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1.2;
+}
+
+#title p {
+  color: #0FD9B2;
+  font-weight: 700;
+  padding: 3% 0;
+  font-size: 1.5rem;
+}
+
+.title-container {
+  padding: 14% 20% 0;
+}
+
+.arrow-div {
+text-align: center;
+padding-top: 18%;
+}
+
+.arrow-icon {
+  font-size: 2.5rem;
+}
+
+.title-container img {
+  width: 80%;
+  margin-left: 20%;
+}
+
+.title-button {
+  margin-right: 3%;
+}
+
+.button-icon {
+  padding: 3px 10px;
+  ;
+}
+
+
+
+/* Info Section */
+#info {
+  background-color: #262626;
+  color: #fff;
+}
+
+.info-icon {
+  font-size: 5rem;
+  color: #0FD9B2;
+  padding: 5%;
+}
+
+.info-section {
+  padding: 7% 15%;
+}
+
+.info-card {
+  padding: 0 7%;
+}
+
+#info h3 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding: 5% 0 10% 0;
+}
+
+#info p {
+  margin-bottom: 10%;
+}
+
+.click-icon {
+  font-size: 3rem;
+}
+
+#info button {
+  padding: 5% 40%;
+  border: none;
+}
+
+/* Call to Action Section */
+#cta {
+  background-color: #5D04D9;
+}
+
+.cta-section {
+  padding: 7% 15%;
+}
+
+#cta h2{
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 3%;
+}
+
+.large-button{
+  padding: 1% 7%;
+  margin: 5%;
+  font-size: 5rem;
+  border: none;
+}
+
+@media (max-width: 1590px) {
+  .title-button{
+  margin: 5% 0;
+  }
+
+  #title h1{
+    font-size: 370%;
+  }
+
+
+}
+
+@media (max-width: 991px) {
+  #title{
+    text-align: center;
+  }
+  #title h1{
+    font-size: 2.4rem;
+  }
+  .title-container img{
+    margin: 10% 0 0 0;
+  }
+
+  #title p{
+    font-size: 1rem;
+  }
+
+  #cta h2{
+    font-size: 2rem;
+  }
+  .large-button{
+    font-size: 4rem;
+  }
+
+}
